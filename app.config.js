@@ -1,6 +1,6 @@
 const baseConfig = require("./app.json");
 
-const googleMapsApiKey = "";
+const googleMapsApiKey = "AIzaSyCzqYmBxIvt3b3TXi4L3rdjylCmfxSmSyE";
 const plugins = [...baseConfig.expo.plugins];
 
 if (googleMapsApiKey) {
