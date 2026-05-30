@@ -1,11 +1,11 @@
-const baseConfig = require('./app.json');
+const baseConfig = require("./app.json");
 
-const googleMapsApiKey = 'AIzaSyCzqYmBxIvt3b3TXi4L3rdjylCmfxSmSyE';
+const googleMapsApiKey = "";
 const plugins = [...baseConfig.expo.plugins];
 
 if (googleMapsApiKey) {
   plugins.push([
-    'react-native-maps',
+    "react-native-maps",
     {
       androidGoogleMapsApiKey: googleMapsApiKey,
       iosGoogleMapsApiKey: googleMapsApiKey,
